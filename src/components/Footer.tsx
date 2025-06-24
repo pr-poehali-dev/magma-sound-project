@@ -6,11 +6,13 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-purple-700 rounded-lg flex items-center justify-center">
-                <Icon name="Radio" size={20} className="text-white" />
-              </div>
-              <span className="text-2xl font-bold text-gradient">MAGMA</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <img
+                src="https://cdn.poehali.dev/files/1dd3e154-8ee3-40c8-bf3a-6b122406d1fe.jpg"
+                alt="МАГМА Логотип"
+                className="w-10 h-10 rounded-full object-cover"
+              />
+              <span className="text-2xl font-bold text-gradient">МАГМА</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Профессиональная студия звукозаписи и радиопроизводства
@@ -60,7 +62,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 MAGMA Studio. Все права защищены.</p>
+          <p>&copy; 2024 МАГМА Studio. Все права защищены.</p>
         </div>
       </div>
     </footer>

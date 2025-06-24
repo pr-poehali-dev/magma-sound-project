@@ -6,11 +6,13 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-purple-700 rounded-lg flex items-center justify-center">
-              <Icon name="Radio" size={20} className="text-white" />
-            </div>
-            <span className="text-2xl font-bold text-gradient">MAGMA</span>
+          <div className="flex items-center space-x-3">
+            <img
+              src="https://cdn.poehali.dev/files/1dd3e154-8ee3-40c8-bf3a-6b122406d1fe.jpg"
+              alt="МАГМА Логотип"
+              className="w-10 h-10 rounded-full object-cover"
+            />
+            <span className="text-2xl font-bold text-gradient">МАГМА</span>
           </div>
 
           <nav className="hidden md:flex space-x-8">
