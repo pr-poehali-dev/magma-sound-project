@@ -15,7 +15,7 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-6 text-center z-10">
         <h1 className="text-6xl md:text-8xl font-bold mb-6">
-          <span className="text-red-700">MAGMA</span>
+          <span className="text-red-700">МАГМА</span>
         </h1>
         <h2 className="text-2xl md:text-3xl font-light mb-8 text-muted-foreground">
           Студия звукозаписи и радиопроизводства
